@@ -1,0 +1,1 @@
+export { default as useHandleGetRepositories } from "./use-handle-get-repositories";
