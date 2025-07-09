@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useQuery, type UseQueryOptions } from "@tanstack/react-query";
 
-import { queryFn } from "../utils/react-query/query-fn";
+import { queryFn } from "@/utils/react-query/query-fn";
 
 export interface Repository {
   id: number;

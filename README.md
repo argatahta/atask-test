@@ -1,4 +1,7 @@
+
 # atask-test
+
+Live Demo: [https://atask-test-lemon.vercel.app/](https://atask-test-lemon.vercel.app/)
 
 A simple React + TypeScript + Vite application for searching GitHub users and viewing their repositories.
 
@@ -49,7 +52,7 @@ npm run lint
 │   │       ├── usecase/   # Custom hooks for business logic
 │   │       └── types.ts   # TypeScript types
 │   ├── utils/
-│   │   └── fetch/         # Data fetching utilities
+│   │   └── react-query/   # React query customization
 │   ├── App.tsx            # App entry
 │   └── main.tsx           # React root
 ├── package.json

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
-import { useRGetUsers } from "../../../repositories";
+import { useRGetUsers } from "@/repositories";
+
 
 function useHandleSearching() {
   const [username, setUsername] = useState<string>("");

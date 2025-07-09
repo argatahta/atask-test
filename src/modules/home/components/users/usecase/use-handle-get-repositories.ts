@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
-import type { RepositoriesProps } from "../types";
+import { useRGetRepositories } from "@/repositories";
 
-import { useRGetRepositories } from "../../../../../repositories";
+import type { RepositoriesProps } from "../types";
 
 function useHandleGetRepositories(options: RepositoriesProps) {
   const { username, isExpanded } = options;
